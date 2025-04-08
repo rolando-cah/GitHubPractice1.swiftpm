@@ -24,4 +24,6 @@ struct ContentView: View {
             answer = number1 + number2
         }
     }
+    
+//closing contentView
 }
