@@ -14,7 +14,7 @@ struct ContentView: View {
         Text("\(number1)")
         Text("Hello World")
         
-        
+        // Christian
         Button("Subtract"){
             
             //             answer = number1 - number2
