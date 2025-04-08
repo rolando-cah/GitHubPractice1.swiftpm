@@ -14,16 +14,16 @@ struct ContentView: View {
         Text("\(number1)")
         Text("Hello World")
         
+        TextField("Number 1", value: $number1, format: .number)
+        TextField("Number 2", value: $number2, format: .number)
+        
         // Christian
         Button("Subtract"){
             
             //             answer = number1 - number2
-            
-        
-        
-            
-            
-            
+  
         }
+        
+        
     }
 }
