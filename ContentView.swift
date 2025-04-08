@@ -19,6 +19,9 @@ struct ContentView: View {
             answer = number1 - number2
             
         }
+        .padding()
+        .background(Color(red: 0, green: 0.56, blue: 0))
+        .clipShape(Capsule())
         
         Button("Add") {
             answer = number1 + number2
