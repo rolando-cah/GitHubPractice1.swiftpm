@@ -12,7 +12,13 @@ struct ContentView: View {
             Text("\(number1)")
         
         
-        
+        Button("Subtract"){
+            
+//             answer = number1 - number2
+            
+            
+            
+        }
         
         
         
