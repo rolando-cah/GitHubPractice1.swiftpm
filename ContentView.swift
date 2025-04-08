@@ -20,6 +20,7 @@ struct ContentView: View {
         // Christian
         Button("Subtract"){
             answer = number1 - number2
+  
         }
         
         .padding()
