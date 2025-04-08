@@ -10,11 +10,11 @@ struct ContentView: View {
     
     var body: some View {
         
-        
+        // Elise was here
         Text("\(number1)")
         Text("Hello World")
         
-        
+        // Christian
         Button("Subtract"){
             
 //            answer = number1 - number2
