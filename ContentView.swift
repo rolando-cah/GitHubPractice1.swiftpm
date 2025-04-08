@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var answer = "Hello"
+    @State var answer = 0
     
     
     @State var number1 = 0
@@ -16,14 +16,12 @@ struct ContentView: View {
         
         // Christian
         Button("Subtract"){
-            
             //             answer = number1 - number2
             
+        }
         
-        
-            
-            
-            
+        Button("Add") {
+            answer = number1 + number2
         }
     }
 }
