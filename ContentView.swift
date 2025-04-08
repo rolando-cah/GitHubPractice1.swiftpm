@@ -24,21 +24,7 @@ struct ContentView: View {
         
         
         
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            
-            @State var number2 = 0
-            //             answer = number1 - number2
-            
-        
-        
-            
-            
-            
-        }
+
         
         
         
