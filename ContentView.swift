@@ -7,6 +7,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            
+            @State var number2 = 0
         }
     }
 }
