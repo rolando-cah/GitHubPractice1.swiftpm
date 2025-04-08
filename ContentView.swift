@@ -10,15 +10,18 @@ struct ContentView: View {
     var body: some View {
         
         
-            Text("\(number1)")
+        Text("\(number1)")
         
         
         Button("Subtract"){
             
-//             answer = number1 - number2
+//            answer = number1 - number2
             
-            
-            
+        }
+        
+        
+        
+        
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
@@ -30,5 +33,8 @@ struct ContentView: View {
         
         
         
+    //closing some View
     }
+    
+//closing contentView
 }
