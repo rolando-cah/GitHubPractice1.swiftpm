@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         
         // Elise was here
-        Text("\(number1)")
+        Text("\(answer)")
         Text("Hello World")
         
         TextField("Number 1", value: $number1, format: .number)
@@ -20,8 +20,6 @@ struct ContentView: View {
         // Christian
         Button("Subtract"){
             answer = number1 - number2
-            
-            //             answer = number1 - number2
   
         }
         .padding()
