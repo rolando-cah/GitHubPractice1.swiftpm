@@ -12,6 +12,13 @@ struct ContentView: View {
         
         // Elise was here
         Text("\(answer)")
+            .font(.title)
+            .bold()
+            .padding()
+            .background(
+                RoundedRectangle(cornerRadius: 25.0)
+                    .fill(.green)
+            )
         Text("Hello World")
         
         TextField("Number 1", value: $number1, format: .number)
@@ -28,6 +35,10 @@ struct ContentView: View {
         
         Button("Add") {
             answer = number1 + number2
+        }
+        
+        Button("Divide") {
+            answer = number1 / number2
         }
     }
     
