@@ -22,13 +22,17 @@ struct ContentView: View {
         Text("Hello World")
         
         TextField("Number 1", value: $number1, format: .number)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .frame(width: 150)
         TextField("Number 2", value: $number2, format: .number)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .frame(width: 150)
         
-        // Christian
+        // Rolando
         Button("Subtract"){
             answer = number1 - number2
-  
         }
+        
         .padding()
         .background(Color(red: 0, green: 0.56, blue: 0))
         .clipShape(Capsule())
@@ -36,6 +40,13 @@ struct ContentView: View {
         Button("Add") {
             answer = number1 + number2
         }
+        .padding()
+        .background(Color(red: 0, green: 0.56, blue: 0))
+        .clipShape(Capsule())
+        
+        Button("Multiply")
+        {
+            answer = number1 * number2
         
         
         
